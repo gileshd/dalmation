@@ -1,0 +1,23 @@
+# Set 232530 background default line colors to white.
+
+lines.color: white
+patch.edgecolor: white
+
+text.color: white
+
+axes.facecolor: 232530
+axes.edgecolor: white
+axes.labelcolor: white
+axes.prop_cycle: cycler('color', ["db5f57", "dbae57", "b9db57", "69db57", "57db94", "57d3db", "5784db", "7957db", "c957db", "db579e"])
+
+xtick.color: white
+ytick.color: white
+
+grid.color: white
+
+figure.facecolor: 232530
+figure.edgecolor: 232530
+
+savefig.facecolor: 232530
+savefig.edgecolor: 232530
+

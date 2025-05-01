@@ -1,0 +1,44 @@
+# Style for PhD thesis.
+font.size           : 13.0
+font.sans-serif     : Helvetica Neue, Lucida Grande, Verdana, Geneva, Lucid, Arial, Avant Garde, sans-serif
+font.family : serif
+mathtext.fontset : dejavuserif
+
+text.color          : 444444 # 4d4d4d or 555555
+
+axes.facecolor      : white   ## axes background color
+axes.edgecolor      : 555555   ## axes edge color
+axes.linewidth      : 1     ## edge linewidth
+axes.titlesize      : 18  ## fontsize of the axes title
+axes.titlepad       : 10.0     ## pad between axes and title in points
+axes.labelcolor     : 555555
+axes.labelsize      : 18
+axes.spines.top     : False
+axes.spines.right   : False
+#axes.prop_cycle     : cycler('color', ['003f5c', 'ffa600', 'bc5090', '374c80', 'ff764a', '7a5195','ef5675'])
+axes.prop_cycle     : cycler('color', ["003f5c", "d15400", "6da9b0", "ffca37", "559e5e", "ad0c00"])
+# https://projects.susielu.com/viz-palette?colors=[%22#102556%22,%22#d15400%22,%22#6da9b0%22,%22#ffca37%22]&backgroundColor=%22white%22&fontColor=%22black%22&mode=%22normal%22
+# ["#102556",
+# "#d15400",
+# "#6da9b0",
+# "#ffca37"]
+## https://learnui.design/tools/data-color-picker.html
+##1: 003f5c
+##7: ffa600
+##4: bc5090
+##2: 374c80
+##6: ff764a
+##3: 7a5195
+##5: ef5675
+xtick.color            : 555555
+ytick.color            : 555555
+grid.color       :   eeeeee    ## grid color
+legend.frameon       : False     ## if True, draw the legend on a background patch
+figure.titlesize : 16      ## size of the figure title (Figure.suptitle())
+figure.facecolor : white      ## figure facecolor
+figure.figsize: 8, 6
+figure.frameon : False         ## enable figure frame
+figure.subplot.top     : 0.91   ## the top of the subplots of the figure
+
+pdf.fonttype : 42 # In order to save as pdf - see http://phyletica.org/matplotlib-fonts/
+
