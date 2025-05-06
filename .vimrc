@@ -23,11 +23,6 @@ Plug 'quarto-dev/quarto-vim'
 Plug 'psf/black', { 'for' : 'python' }
 Plug 'davidhalter/jedi-vim', { 'for' : 'python' }
 Plug 'heavenshell/vim-pydocstring', { 'for' : 'python' }
-" ~~~ Julia ~~~
-Plug 'JuliaEditorSupport/julia-vim', { 'for' : 'julia' } 
-" Plug 'autozimu/LanguageClient-neovim', {'branch': 'next', 'do': 'bash install.sh'}
-" ~~~ R ~~~
-Plug 'jalvesaq/Nvim-R', {'branch': 'stable'}
 " ~~~ Latex ~~~
 " Plug 'xuhdev/vim-latex-live-preview', { 'for' : 'tex' }
 Plug 'lervag/vimtex'
